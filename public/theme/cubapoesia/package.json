@@ -1,0 +1,40 @@
+{
+  "name": "current",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wpbuild": "webpack --config webpack.config.js",
+    "wpwatch": "webpack --watch",
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.3.1",
+    "alpinejs": "^2.8.2",
+    "aos": "^2.3.4",
+    "autoprefixer": "^10.0.2",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^2.0.2",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "@symfony/stimulus-bridge": "^2.0.0",
+    "@symfony/webpack-encore": "^1.0.0",
+    "core-js": "^3.0.0",
+    "postcss": "^8.2.4",
+    "postcss-import": "^14.0.0",
+    "postcss-loader": "^5.0.0",
+    "regenerator-runtime": "^0.13.2",
+    "sass": "1.32.8",
+    "sass-loader": "^11.0.1",
+    "stimulus": "^2.0.0",
+    "webpack-notifier": "^1.6.0"
+  }
+}
